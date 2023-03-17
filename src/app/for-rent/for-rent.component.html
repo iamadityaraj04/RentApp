@@ -1,0 +1,49 @@
+    <div class="rent-container">
+
+        <!-- cover-section -->
+        <div class="cover">
+            <div class="cover-bg">
+            </div>
+            <div class="cover-heading">
+                <p class="cover-heading-text">{{onRentCover}}</p>
+                <p class="cover-heading-descripton">{{onRentDes}}</p>
+            </div>
+        </div>
+        
+        <!-- cotegory-section -->
+        <div>
+            <p class="heading">
+                <svg preserveAspectRatio="xMidYMid meet" data-bbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" fill="red" width="30" height="30" viewBox="0 0 200 200" role="presentation" aria-hidden="true">
+                    <g>
+                        <path d="M200 100c0 55.228-44.772 100-100 100S0 155.228 0 100 44.772 0 100 0s100 44.772 100 100z"></path>
+                    </g>
+                </svg>
+                {{rentSection1}}
+            </p>
+        </div>
+        <div class="category">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" [src]="categoryimg1" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">{{categoryTitle1}}</h5>
+                  <p class="card-text">{{categoryDesc1}}</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" [src]="categoryimg2" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">{{categoryTitle2}}</h5>
+                  <p class="card-text">{{categoryDesc2}}</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" [src]="categoryimg3" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">{{categoryTitle3}}</h5>
+                  <p class="card-text">{{categoryDesc3}}</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+

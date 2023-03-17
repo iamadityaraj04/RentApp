@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading svg{
+    margin: 0px 20px;
+}
+.cover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cover-bg{
+    animation-name: animation1;
+    animation-duration: 4s;
+    min-width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(60%);
+}
+.cover-heading{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    font-size: 80px;
+    color: white;
+    font-weight: 500;
+}
+.cover-heading-descripton{
+    font-size: 25px;
+    font-weight: 200;
+}
+
+@keyframes animation1 {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

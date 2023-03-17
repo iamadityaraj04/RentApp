@@ -1,0 +1,36 @@
+.navbar{
+    background-color: rgba(0, 0, 0, 0.83);
+}
+.navbar{
+    animation-name: nav-item-ani;
+    animation-duration: 3s;
+}
+@keyframes nav-item-ani {
+    from{
+        height: 0px;
+        opacity: 0;
+    }
+    to{
+        height: 70px;
+        opacity: 1;
+    }
+}
+#navbarNav li{
+    padding: 0px 20px;
+}
+
+.nav-link{
+    color: rgb(255, 255, 255);
+}
+.nav-link:hover{
+    color: rgb(255, 0, 0);
+}
+
+.navbar-brand{
+    color: rgb(255, 0, 0); margin-left: 50px; font-size: 30px; font-weight: 700;
+}
+
+.active-style{
+    border: 1px solid red;
+    color: red;
+}

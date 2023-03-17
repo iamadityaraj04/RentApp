@@ -1,0 +1,31 @@
+.category{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 50px auto;
+}
+.card-body a{
+    background-color: red;
+}
+.cover-bg{
+    background-image: url(https://source.unsplash.com/MP8gUVg2bMQ);
+}
+.card-title{
+    color: green;
+}
+.card{
+    border: none;
+    box-shadow: 0px 0px 5px -1px rgb(0, 0, 0);
+    transition:0.2s ease;
+}
+.card:hover{
+    box-shadow: 0px 0px 10px -1px red;
+}
+.cover{
+    margin-bottom: 80px;
+}
+.card-text{
+    font-weight: 300;
+    font-size: 14px;
+    text-align: justify;
+}
