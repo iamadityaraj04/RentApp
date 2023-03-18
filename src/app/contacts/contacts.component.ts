@@ -22,4 +22,9 @@ export class ContactsComponent {
       window.location.reload();
     }
   }
+
+
+  phnNumber:string="+91 9876543210";
+  email:string="rent.it@gmail.com";
+  address: string="34 M2, Gurugram, Haryana, 122008"
 }

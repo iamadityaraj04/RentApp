@@ -8,6 +8,5 @@ import { NavigationEnd, Router } from '@angular/router';
 })
 export class AppComponent {
   title = 'RentApp';
-  showHeader:boolean=true;
 
 }
