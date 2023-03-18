@@ -46,6 +46,14 @@ body{
     color: white;
     font-weight: 500;
 }
+.static-wallpaper{
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: brightness(80%);
+}
 .cover-heading-descripton{
     font-size: 25px;
     font-weight: 200;

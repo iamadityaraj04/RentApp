@@ -1,3 +1,6 @@
+/* category */
+
+
 .category{
     display: flex;
     flex-direction: row;
@@ -28,4 +31,75 @@
     font-weight: 300;
     font-size: 14px;
     text-align: justify;
+}
+
+/* motorbikes */
+
+.motorbikes,.cars{
+    padding: 40px 80px;
+    background-color: rgb(248, 248, 241) ;
+}
+.display-vehicle{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+    box-shadow: 0px 0px 5px -1px rgb(0, 0, 0);
+}
+.vehicle-img{
+    box-shadow: 0px 0px 5px -1px rgb(0, 0, 0);
+    min-width: 300px;
+    background-color: white;
+    padding: 20px ;
+}
+.vehicle-info-left{
+    min-width: 30%;
+    color: black;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.vehicle-brand{
+    font-size: 40px;
+}
+.vehicle-name{
+    font-size: 20px;
+}
+.vehicle-displayoffer-1{
+    font-size: 30px;
+    color: green;
+}
+.vehicle-display-2{
+    color: rgb(0, 0, 0);
+}
+.vehicle-displayreal{
+    font-size: 20px;
+    color: red;
+    font-style: italic;
+    text-decoration: line-through;
+}
+.vehicle-specs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vehicle-specs-info{
+    font-size: 30px;
+}
+.vehicle-info-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 40%;
+    justify-content: space-between;
+}
+.vehicle-specs{
+    margin: 0px 20px;
+}
+
+.category-heading{
+    font-size: 180px;
+    color: white;
+    text-align: center;
+    padding: 150px 0px;
 }

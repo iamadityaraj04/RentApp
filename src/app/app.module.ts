@@ -12,6 +12,8 @@ import { FAQComponent } from './faq/faq.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { ForRentComponent } from './for-rent/for-rent.component';
 import { FormsModule } from '@angular/forms';
+import { LoginRegisterComponent } from './login-register/login-register.component';
+import { CheckAvailabilityComponent } from './check-availability/check-availability.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { FormsModule } from '@angular/forms';
     RoadTripsComponent,
     FAQComponent,
     ContactsComponent,
-    ForRentComponent
+    ForRentComponent,
+    LoginRegisterComponent,
+    CheckAvailabilityComponent
   ],
   imports: [
     BrowserModule,
