@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -11,9 +10,9 @@ import { RoadTripsComponent } from './pages/road-trips/road-trips.component';
 import { FAQComponent } from './pages/faq/faq.component';
 import { ContactsComponent } from './pages/contacts/contacts.component';
 import { ForRentComponent } from './pages/for-rent/for-rent.component';
-import { FormsModule } from '@angular/forms';
 import { LoginRegisterComponent } from './login-register/login-register.component';
 import { CheckAvailabilityComponent } from './check-availability/check-availability.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -31,8 +30,8 @@ import { CheckAvailabilityComponent } from './check-availability/check-availabil
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

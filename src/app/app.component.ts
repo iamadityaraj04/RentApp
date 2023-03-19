@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { NavigationEnd, Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -8,5 +7,4 @@ import { NavigationEnd, Router } from '@angular/router';
 })
 export class AppComponent {
   title = 'RentApp';
-
 }

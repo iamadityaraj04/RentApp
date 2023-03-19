@@ -1,3 +1,18 @@
 .cover-bg{
     background-image: url(https://source.unsplash.com/-A9oIN-1j_c);
 }
+
+
+.faq-content{
+    padding: 100px 300px;
+}
+.accordion-button{
+    color: white;
+    background-color: red;
+}
+.data-bs-toggle{
+    color: white;
+}
+.accordion-body{
+    padding: 10px 80px;
+}

@@ -1,7 +1,12 @@
+<div *ngIf="validUser">
+    <router-outlet></router-outlet>
+</div>
 
-<section>
-    <div class="login">
-        <div class="login-left">
+<div *ngIf="!validUser">
+
+    <section>
+        <div class="login">
+            <div class="login-left">
             <span></span>
         </div>
         <div class="login-right">
@@ -11,29 +16,22 @@
                 <ng-template #displayLoginForm>
                     <div [ngClass]="(bLogIn==true)?'loginForm':'registerForm'">
                         <h1>Login</h1>
-                        <form action="">
-                        <input type="text" placeholder="username"><br><br>
-                        <input type="password" placeholder="password"><br><br>
-                        <button class="btn btn-success" routerLink="home">Login</button>
-                        </form>
+                            <input type="email" placeholder="email"  [(ngModel)]="loginObj.email"><br><br>
+                            <input type="password" placeholder="password"  [(ngModel)]="loginObj.password"><br><br>
+                            <button class="btn btn-success" type="submit" (click)="onLogin()">Login</button>
                         Not have an acount? &nbsp;<a class="register-link" (click)="displayRegister()">Register</a>
                         <br>
-                        
                     </div>
                 </ng-template>
                 
                 
                 <ng-template #displayRegistrationForm>
                     <div [ngClass]="(bLogIn==true)?'loginForm':'registerForm'">
-                        <h1>Registration</h1> 
-                        <form action="">
-                        <label for="">Name:</label>&nbsp;<input type="text" placeholder="Aditya Raj"><br><br>
-                        <label for="">Email:</label>&nbsp;<input type="email" placeholder="aditya@gmail.com"><br><br>
-                        <label for="">Username:</label>&nbsp;<input type="text" placeholder="iamadityaraj04"><br><br>
-                        <label for="">Password:</label>&nbsp;<input type="password"><br><br>
-                        <label for="">Confirm Password:</label>&nbsp;<input type="text"><br><br>
-                        <button class="btn btn-success" routerLink="/">Register</button>
-                        </form>
+                        <h1>Register</h1> 
+                        <label for="">Name</label><input type="text" placeholder="Aditya Raj" [(ngModel)]="registerObj.name"><br><br>
+                        <label for="">Email</label><input type="email" placeholder="aditya@gmail.com"  [(ngModel)]="registerObj.email"><br><br>
+                        <label for="">Password</label><input type="password" placeholder="••••••••"  [(ngModel)]="registerObj.password"><br><br>
+                        <button class="btn btn-success" type="submit" (click)="onRegister()">Register</button>
                         Alreay an user? &nbsp;<a class="register-link" (click)="displayLogin()">Login</a>
                         <br>  
                     </div>
@@ -41,4 +39,5 @@
             </div>
         </div>
     </div>
-    
+    </section> 
+</div>

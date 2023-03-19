@@ -24,7 +24,7 @@ export class ContactsComponent {
   }
 
 
-  phnNumber:string="+91 9876543210";
+  phnNumber:string="+91 987-654-3210";
   email:string="rent.it@gmail.com";
   address: string="34 M2, Gurugram, Haryana, 122008"
 }

@@ -1,3 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .cover-bg{
     background-image: url(https://source.unsplash.com/HD9P-xw2pEE);
 }
+
+.about-section{
+   padding: 50px 20px;
+    background-color: black;
+}
+.about-section,.about-right{
+    display: flex;
+}
+.about-section{
+    align-items: center;
+}
+#about-decoration{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.about-left,.about-right{
+    width: 50%;
+    padding: 10px 50px;
+}
+.about-right{
+    justify-content: center;
+}
+.about-line{
+    margin: 0px 10px;
+    background-color: red;
+    width: 100px;
+    height: 0px;
+    border: 2px solid red;
+    border-radius: 100px;
+}
+.about-right img{
+    padding: 50px;
+}
+
+
+
+
