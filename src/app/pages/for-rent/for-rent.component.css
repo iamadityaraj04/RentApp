@@ -47,7 +47,7 @@
 }
 .vehicle-img{
     box-shadow: 0px 0px 5px -1px rgb(0, 0, 0);
-    min-width: 300px;
+    max-width: 350px;
     background-color: white;
     padding: 20px ;
 }

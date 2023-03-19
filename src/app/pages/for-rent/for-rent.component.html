@@ -57,12 +57,12 @@
                 </div>
                 <div class="vehicle-info-left">
                     <div class="vehicle-name">
-                        <span class="vehicle-brand">{{motorbike.brand}}</span>&nbsp;
-                        <span class="vehicle-name">{{motorbike.name}}</span>
+                        <span class="vehicle-brand">{{motorbike.bikeBrand}}</span>&nbsp;
+                        <span class="vehicle-name">{{motorbike.bikeName}}</span>
                     </div>
                     <div class="vehicle-price">
-                        <span class="vehicle-displayoffer-1">{{motorbike.offerprice | currency:"INR"}}</span><span class="vehicle-display-2">/day</span>
-                        <p class="vehicle-displayreal">{{motorbike.price | currency:"INR"}}</p>
+                        <span class="vehicle-displayoffer-1">{{motorbike.bikeOfferPrice | currency:"INR"}}</span><span class="vehicle-display-2">/day</span>
+                        <p class="vehicle-displayreal">{{motorbike.bikePrice | currency:"INR"}}</p>
                     </div>
                     <div>
                         <button class="btn btn-success rounded-pill">Check Availability</button>
@@ -77,7 +77,7 @@
                             </svg>
                         </div>
                         <div class="vehicle-specs-info">
-                            {{motorbike.category | uppercase}}
+                            {{motorbike.bikeCategory | uppercase}}
                         </div>
                     </div>
                     <div class="vehicle-specs">
@@ -88,7 +88,7 @@
                             </svg>
                         </div>
                         <div class="vehicle-specs-info">
-                            {{motorbike.milage}}Km/L
+                            {{motorbike.bikeMilage}}Km/L
                         </div>
                     </div>
                     <div class="vehicle-specs">
@@ -96,7 +96,7 @@
                             <img src="/assets/engine-icon.png" alt="">
                         </div>
                         <div class="vehicle-specs-info">
-                            {{motorbike.engine}}
+                            {{motorbike.bikeEngine}}
                         </div>
                     </div>
                 </div>
@@ -127,12 +127,12 @@
                 </div>
                 <div class="vehicle-info-left">
                     <div class="vehicle-name">
-                        <span class="vehicle-brand">{{car.brand}}</span>&nbsp;
-                        <span class="vehicle-name">{{car.name}}</span>
+                        <span class="vehicle-brand">{{car.carBrand}}</span>&nbsp;
+                        <span class="vehicle-name">{{car.carName}}</span>
                     </div>
                     <div class="vehicle-price">
-                        <span class="vehicle-displayoffer-1">{{car.offerprice | currency:"INR"}}</span><span class="vehicle-display-2">/day</span>
-                        <p class="vehicle-displayreal">{{car.price | currency:"INR"}}</p>
+                        <span class="vehicle-displayoffer-1">{{car.carOfferPrice | currency:"INR"}}</span><span class="vehicle-display-2">/day</span>
+                        <p class="vehicle-displayreal">{{car.carPrice | currency:"INR"}}</p>
                     </div>
                     <div>
                         <button class="btn btn-success rounded-pill">Check Availability</button>
@@ -144,7 +144,7 @@
                             <img src="/assets/seat-icon.png" alt="">
                         </div>
                         <div class="vehicle-specs-info">
-                            {{car.seater}} SEATER
+                            {{car.carSeater}} SEATER
                         </div>
                     </div>
                     <div class="vehicle-specs">
@@ -155,7 +155,7 @@
                             </svg>
                         </div>
                         <div class="vehicle-specs-info">
-                            {{car.milage}}Km/L
+                            {{car.carMilage}}Km/L
                         </div>
                     </div>
                     <div class="vehicle-specs">
@@ -163,7 +163,7 @@
                             <img src="/assets/engine-icon.png" alt="">
                         </div>
                         <div class="vehicle-specs-info">
-                            {{car.engine}}
+                            {{car.carEngine}}
                         </div>
                     </div>
                 </div>
